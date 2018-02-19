@@ -1,0 +1,6 @@
+<form formGroup="form"  (ngSubmit)="addBatiment()" >
+  Nom Batiment<br>
+  <input type="text" formControlName="nomBatiment"  [(value)]="batiment.nomBatiment" name="nombatiment" placeholder="Ex:Pavillon A"><br><br>
+  <input type="submit" value="Ajouter">
+</form>
+{{batiments}} 
